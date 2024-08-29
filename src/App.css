@@ -1,0 +1,22 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.masonry {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.masonry-item {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.masonry-item:hover {
+  transform: scale(1.05);
+}
